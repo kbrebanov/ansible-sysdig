@@ -1,0 +1,19 @@
+---
+# tasks file for sysdig (Ubuntu specific)
+
+- name: Download Draios GPG key
+  apt_key: >
+    url=https://s3.amazonaws.com/download.draios.com/DRAIOS-GPG-KEY.public
+    state=present
+  tags: sysdig
+
+- name: Configure Draios APT repository
+  apt_repository: >
+    repo='deb http://download.draios.com/stable/deb stable-$(ARCH)/'
+    state=present
+    update_cache=yes
+  tags: sysdig
+
+- name: Install sysdig package
+  apt: name=sysdig state=present update_cache=yes
+  tags: sysdig
