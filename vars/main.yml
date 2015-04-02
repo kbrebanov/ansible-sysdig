@@ -1,5 +1,2 @@
 ---
 # vars file for sysdig
-
-sysdig_packages:
-  - sysdig={{ sysdig_version }}

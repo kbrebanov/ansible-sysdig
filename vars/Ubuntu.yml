@@ -1,2 +1,5 @@
 ---
 # vars file for sysdig (Ubuntu specific)
+
+sysdig_packages:
+  - sysdig={{ sysdig_version }}

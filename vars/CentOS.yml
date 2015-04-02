@@ -1,2 +1,5 @@
 ---
 # vars file for sysdig (CentOS specific)
+
+sysdig_packages:
+  - sysdig-{{ sysdig_version }}
