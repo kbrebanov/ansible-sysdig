@@ -11,17 +11,36 @@ This role requires Ansible 1.4 or higher.
 Role Variables
 --------------
 
+| Name           | Default | Description                  |
+|----------------|---------|------------------------------|
+| sysdig_version | 0.1.99  | Version of Sysdig to install |
+
 Dependencies
 ------------
+
+CentOS:
+  - kbrebanov.dkms
+  - kbrebanov.selinux
+
+Ubuntu:
+  - kbrebanov.dkms
 
 Example Playbook
 ----------------
 
-1) Install sysdig
+Install sysdig
+```
+- hosts: all
+  roles:
+    - { role: sysdig }
+```
 
-    - hosts: all
-      roles:
-         - { role: sysdig }
+Install sysdig specifying a version
+```
+- hosts: all
+  roles:
+    - { role: sysdig, sysdig_version: 0.1.98 }
+```
 
 License
 -------
