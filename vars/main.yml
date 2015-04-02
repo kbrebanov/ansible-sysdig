@@ -2,4 +2,4 @@
 # vars file for sysdig
 
 sysdig_packages:
-  - sysdig
+  - sysdig={{ sysdig_version }}
