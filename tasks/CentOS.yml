@@ -16,6 +16,7 @@
     mode=0644
   tags: sysdig
 
-- name: Install sysdig package
-  yum: name=sysdig state=present
+- name: Install sysdig packages
+  yum: name={{ item }} state=present
+  with_items: sysdig_packages
   tags: sysdig
