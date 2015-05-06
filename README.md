@@ -1,6 +1,8 @@
 sysdig
 ======
 
+[![Ansible Galaxy](https://img.shields.io/badge/galaxy-kbrebanov.sysdig-660198.svg)](https://galaxy.ansible.com/list#/roles/3292)
+
 Installs sysdig.
 
 Requirements
