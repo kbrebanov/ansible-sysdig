@@ -1,4 +1,4 @@
 ---
 # defaults file for sysdig
 
-sysdig_version: 0.1.99
+sysdig_version: 0.3.0

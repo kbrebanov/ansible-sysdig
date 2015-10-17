@@ -15,7 +15,7 @@ Role Variables
 
 | Name           | Default | Description                  |
 |----------------|---------|------------------------------|
-| sysdig_version | 0.1.99  | Version of Sysdig to install |
+| sysdig_version | 0.3.0   | Version of Sysdig to install |
 
 Dependencies
 ------------
