@@ -1,7 +1,7 @@
 sysdig
 ======
 
-[![Ansible Role](https://img.shields.io/ansible/role/3292.svg)](https://galaxy.ansible.com/list#/roles/3292)
+[![Build Status](https://travis-ci.org/kbrebanov/ansible-sysdig.svg?branch=master)](https://travis-ci.org/kbrebanov/ansible-sysdig)
 
 Installs sysdig.
 
