@@ -20,11 +20,6 @@ Role Variables
 Dependencies
 ------------
 
-CentOS:
-  - kbrebanov.dkms
-  - kbrebanov.selinux
-
-Ubuntu:
   - kbrebanov.dkms
 
 Example Playbook
